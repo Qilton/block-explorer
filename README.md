@@ -1,6 +1,3 @@
-Perfect! I can help you craft a concise, clear, and professional README for your project. Here's a good starting template you can use and adapt:
-
----
 
 # Next.js Block Explorer
 
@@ -68,5 +65,3 @@ Feel free to open issues or submit pull requests to improve the project!
 This project is licensed under the MIT License.
 
 ---
-
-Do you want me to do that?
