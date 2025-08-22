@@ -3,6 +3,20 @@
 
 A simple blockchain explorer built with **Next.js** and the **Alchemy SDK**. View the latest blocks, transactions, and more in real-time.
 
+## Screenshots
+
+**Homepage**  
+![Homepage](./screenshots/HomePage.png)
+
+**Block Details**  
+![Block Details](./screenshots/Block.png)
+
+**Transaction Details**  
+![Transaction Details](./screenshots/Transaction.png)
+
+**Address Details**  
+![Address Details](./screenshots/Address.png)
+
 ## Features
 
 * Fetch and display the latest blocks and transactions.
