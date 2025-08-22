@@ -6,14 +6,13 @@ import { AssetTransfersCategory, AssetTransfersResult } from 'alchemy-sdk';
 import { formatEther } from 'ethers';
 import Link from 'next/link';
 
-interface AddressDetailProps {
-    address?: string;
-}
+import { useParams } from 'next/navigation';
 
-interface Transaction extends AssetTransfersResult {
-}
+interface Transaction extends AssetTransfersResult {}
 
-const AddressDetailPage = ({ address = '0x1234567890123456789012345678901234567890' }: AddressDetailProps) => {
+const AddressDetailPage = () => {
+    const params = useParams();
+    const address = typeof params.address === 'string' ? params.address : Array.isArray(params.address) ? params.address[0] : '';
     const [balance, setBalance] = useState<string>('');
     const [copied, setCopied] = useState(false);
     const [loading, setLoading] = useState(true);
